@@ -23,7 +23,9 @@
   ~ THE SOFTWARE.
   -->
 
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance 
+			http://www.springmodules.org/schema/cache/springmodules-cache.xsd 
+			http://www.springmodules.org/schema/cache/springmodules-ehcache.xsd"
          xmlns="http://java.sun.com/xml/ns/javaee"
          xsi:schemaLocation="
             http://java.sun.com/xml/ns/javaee
